@@ -1,26 +1,21 @@
 # DataURI
 [![Swift Version](https://img.shields.io/badge/Swift-4.2-brightgreen.svg)](http://swift.org)
 [![Vapor Version](https://img.shields.io/badge/Vapor-3-30B6FC.svg)](http://vapor.codes)
-[![Circle CI](https://circleci.com/gh/nodes-vapor/data-uri/tree/master.svg?style=shield)](https://circleci.com/gh/nodes-vapor/data-uri)
 [![codebeat badge](https://codebeat.co/badges/7f0cab4f-f11b-43d5-8484-bc9300c23d81)](https://codebeat.co/projects/github-com-nodes-vapor-data-uri-master)
 [![codecov](https://codecov.io/gh/nodes-vapor/data-uri/branch/master/graph/badge.svg)](https://codecov.io/gh/nodes-vapor/data-uri)
-[![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/nodes-vapor/data-uri)](http://clayallsopp.github.io/readme-score?url=https://github.com/nodes-vapor/data-uri)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nodes-vapor/data-uri/master/LICENSE)
 
-A pure Swift parser for Data URIs.
+A pure Swift parser for Gemini URIs.
 
 
 ## 📦 Installation
 
 Update your `Package.swift` file.
 ```swift
-.package(url: "https://github.com/nodes-vapor/data-uri.git", from: "2.0.0")
+.package(url: "https://github.com/etaletairecords/gemini-uri.git", from: "2.0.1")
 ```
 
-
-## Getting started 🚀
-
-There are two options for decoding a Data URI. The first is using the `String` extension and the second is by using the `DataURIParser` directly.
+## Usage 🚀
 
 ### The `String` method
 
@@ -54,8 +49,8 @@ print(metadata == nil) // "true"
 
 ## 🏆 Credits
 
-This package is developed and maintained by the Vapor team at [Nodes](https://www.nodesagency.com).
-The package owner for this project is [Tom](https://github.com/tomserowka).
+This package is based on data-uri developed and maintained by the Vapor team at [Nodes](https://www.nodesagency.com).
+The package owner for _this_ project is [Etaletai Records](https://github.com/etaletairecords).
 
 
 ## 📄 License
